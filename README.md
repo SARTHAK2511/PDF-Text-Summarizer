@@ -2,7 +2,6 @@
 
 PDF Text Summarization Streamlit App using the MBZUAI/LaMini-Flan-T5-248M Model on Hugging Face.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/your_username/your_app_name)
 
 This project is a PDF text summarization tool that leverages the power of the MBZUAI/LaMini-Flan-T5-248M model available on Hugging Face. It provides an easy-to-use interface for summarizing text from PDF documents.
 
