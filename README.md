@@ -12,7 +12,7 @@ To run this project, you need to install the following Python libraries:
 Download the model
 ```
 from huggingface_hub import snapshot_download
-snapshot_download(repo_id="lysandre/arxiv-nlp")
+snapshot_download(repo_id="MBZUAI/LaMini-Flan-T5-248M")
 ```
 
 ```bash
