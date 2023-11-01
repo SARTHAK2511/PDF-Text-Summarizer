@@ -9,6 +9,11 @@ This project is a PDF text summarization tool that leverages the power of the MB
 ## Installation
 
 To run this project, you need to install the following Python libraries:
+Download the model
+```
+from huggingface_hub import snapshot_download
+snapshot_download(repo_id="lysandre/arxiv-nlp")
+```
 
 ```bash
 pip install langchain streamlit torch transformers accelerate sentence_transformers sentencepiece
@@ -23,6 +28,7 @@ Run the Streamlit app.
 
 streamlit run app.py
 ```
+
 Access the app in your web browser by following the link provided in the terminal.
 Usage
 Upload your PDF document to the app.
